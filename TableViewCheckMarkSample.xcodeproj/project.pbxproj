@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		390D5B0B1DD559A90037B1B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390D5B0A1DD559A90037B1B8 /* AppDelegate.swift */; };
+		390D5B0D1DD559A90037B1B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390D5B0C1DD559A90037B1B8 /* ViewController.swift */; };
+		390D5B101DD559A90037B1B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 390D5B0E1DD559A90037B1B8 /* Main.storyboard */; };
+		390D5B121DD559A90037B1B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 390D5B111DD559A90037B1B8 /* Assets.xcassets */; };
+		390D5B151DD559A90037B1B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 390D5B131DD559A90037B1B8 /* LaunchScreen.storyboard */; };
+		390D5B201DD559A90037B1B8 /* TableViewCheckMarkSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390D5B1F1DD559A90037B1B8 /* TableViewCheckMarkSampleTests.swift */; };
+		390D5B2B1DD559A90037B1B8 /* TableViewCheckMarkSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390D5B2A1DD559A90037B1B8 /* TableViewCheckMarkSampleUITests.swift */; };
+		390D5B391DD55AD20037B1B8 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390D5B381DD55AD20037B1B8 /* TableViewCell.swift */; };
+		390D5B431DD55D5F0037B1B8 /* Bach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 390D5B3C1DD55D5F0037B1B8 /* Bach.jpg */; };
+		390D5B441DD55D5F0037B1B8 /* Beethoven.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 390D5B3D1DD55D5F0037B1B8 /* Beethoven.jpg */; };
+		390D5B451DD55D5F0037B1B8 /* Pachelbel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 390D5B3E1DD55D5F0037B1B8 /* Pachelbel.jpg */; };
+		390D5B461DD55D5F0037B1B8 /* aria.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 390D5B401DD55D5F0037B1B8 /* aria.mp3 */; };
+		390D5B471DD55D5F0037B1B8 /* cannon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 390D5B411DD55D5F0037B1B8 /* cannon.mp3 */; };
+		390D5B481DD55D5F0037B1B8 /* elise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 390D5B421DD55D5F0037B1B8 /* elise.mp3 */; };
+		39CA46941DD64F840037BA8C /* JEToolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CA46931DD64F840037BA8C /* JEToolkit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		390D5B1C1DD559A90037B1B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 390D5AFF1DD559A80037B1B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 390D5B061DD559A80037B1B8;
+			remoteInfo = TableViewCheckMarkSample;
+		};
+		390D5B271DD559A90037B1B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 390D5AFF1DD559A80037B1B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 390D5B061DD559A80037B1B8;
+			remoteInfo = TableViewCheckMarkSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		390D5B071DD559A90037B1B8 /* TableViewCheckMarkSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewCheckMarkSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		390D5B0A1DD559A90037B1B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		390D5B0C1DD559A90037B1B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		390D5B0F1DD559A90037B1B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		390D5B111DD559A90037B1B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		390D5B141DD559A90037B1B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		390D5B161DD559A90037B1B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		390D5B1B1DD559A90037B1B8 /* TableViewCheckMarkSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewCheckMarkSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		390D5B1F1DD559A90037B1B8 /* TableViewCheckMarkSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCheckMarkSampleTests.swift; sourceTree = "<group>"; };
+		390D5B211DD559A90037B1B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		390D5B261DD559A90037B1B8 /* TableViewCheckMarkSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewCheckMarkSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		390D5B2A1DD559A90037B1B8 /* TableViewCheckMarkSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCheckMarkSampleUITests.swift; sourceTree = "<group>"; };
+		390D5B2C1DD559A90037B1B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		390D5B381DD55AD20037B1B8 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		390D5B3C1DD55D5F0037B1B8 /* Bach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bach.jpg; sourceTree = "<group>"; };
+		390D5B3D1DD55D5F0037B1B8 /* Beethoven.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Beethoven.jpg; sourceTree = "<group>"; };
+		390D5B3E1DD55D5F0037B1B8 /* Pachelbel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pachelbel.jpg; sourceTree = "<group>"; };
+		390D5B401DD55D5F0037B1B8 /* aria.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aria.mp3; sourceTree = "<group>"; };
+		390D5B411DD55D5F0037B1B8 /* cannon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cannon.mp3; sourceTree = "<group>"; };
+		390D5B421DD55D5F0037B1B8 /* elise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = elise.mp3; sourceTree = "<group>"; };
+		39CA46931DD64F840037BA8C /* JEToolkit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JEToolkit.framework; path = Carthage/Build/iOS/JEToolkit.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		390D5B041DD559A80037B1B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39CA46941DD64F840037BA8C /* JEToolkit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390D5B181DD559A90037B1B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390D5B231DD559A90037B1B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		390D5AFE1DD559A80037B1B8 = {
+			isa = PBXGroup;
+			children = (
+				390D5B091DD559A90037B1B8 /* TableViewCheckMarkSample */,
+				390D5B1E1DD559A90037B1B8 /* TableViewCheckMarkSampleTests */,
+				390D5B291DD559A90037B1B8 /* TableViewCheckMarkSampleUITests */,
+				390D5B081DD559A90037B1B8 /* Products */,
+				39CA46921DD64F840037BA8C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		390D5B081DD559A90037B1B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				390D5B071DD559A90037B1B8 /* TableViewCheckMarkSample.app */,
+				390D5B1B1DD559A90037B1B8 /* TableViewCheckMarkSampleTests.xctest */,
+				390D5B261DD559A90037B1B8 /* TableViewCheckMarkSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		390D5B091DD559A90037B1B8 /* TableViewCheckMarkSample */ = {
+			isa = PBXGroup;
+			children = (
+				390D5B3A1DD55D5F0037B1B8 /* Resources */,
+				390D5B0A1DD559A90037B1B8 /* AppDelegate.swift */,
+				390D5B0C1DD559A90037B1B8 /* ViewController.swift */,
+				390D5B0E1DD559A90037B1B8 /* Main.storyboard */,
+				390D5B111DD559A90037B1B8 /* Assets.xcassets */,
+				390D5B131DD559A90037B1B8 /* LaunchScreen.storyboard */,
+				390D5B161DD559A90037B1B8 /* Info.plist */,
+				390D5B381DD55AD20037B1B8 /* TableViewCell.swift */,
+			);
+			path = TableViewCheckMarkSample;
+			sourceTree = "<group>";
+		};
+		390D5B1E1DD559A90037B1B8 /* TableViewCheckMarkSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				390D5B1F1DD559A90037B1B8 /* TableViewCheckMarkSampleTests.swift */,
+				390D5B211DD559A90037B1B8 /* Info.plist */,
+			);
+			path = TableViewCheckMarkSampleTests;
+			sourceTree = "<group>";
+		};
+		390D5B291DD559A90037B1B8 /* TableViewCheckMarkSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				390D5B2A1DD559A90037B1B8 /* TableViewCheckMarkSampleUITests.swift */,
+				390D5B2C1DD559A90037B1B8 /* Info.plist */,
+			);
+			path = TableViewCheckMarkSampleUITests;
+			sourceTree = "<group>";
+		};
+		390D5B3A1DD55D5F0037B1B8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				390D5B3B1DD55D5F0037B1B8 /* Images */,
+				390D5B3F1DD55D5F0037B1B8 /* Songs */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		390D5B3B1DD55D5F0037B1B8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				390D5B3C1DD55D5F0037B1B8 /* Bach.jpg */,
+				390D5B3D1DD55D5F0037B1B8 /* Beethoven.jpg */,
+				390D5B3E1DD55D5F0037B1B8 /* Pachelbel.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		390D5B3F1DD55D5F0037B1B8 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				390D5B401DD55D5F0037B1B8 /* aria.mp3 */,
+				390D5B411DD55D5F0037B1B8 /* cannon.mp3 */,
+				390D5B421DD55D5F0037B1B8 /* elise.mp3 */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
+		39CA46921DD64F840037BA8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39CA46931DD64F840037BA8C /* JEToolkit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		390D5B061DD559A80037B1B8 /* TableViewCheckMarkSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 390D5B2F1DD559A90037B1B8 /* Build configuration list for PBXNativeTarget "TableViewCheckMarkSample" */;
+			buildPhases = (
+				390D5B031DD559A80037B1B8 /* Sources */,
+				390D5B041DD559A80037B1B8 /* Frameworks */,
+				390D5B051DD559A80037B1B8 /* Resources */,
+				39CA46951DD64F890037BA8C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableViewCheckMarkSample;
+			productName = TableViewCheckMarkSample;
+			productReference = 390D5B071DD559A90037B1B8 /* TableViewCheckMarkSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		390D5B1A1DD559A90037B1B8 /* TableViewCheckMarkSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 390D5B321DD559A90037B1B8 /* Build configuration list for PBXNativeTarget "TableViewCheckMarkSampleTests" */;
+			buildPhases = (
+				390D5B171DD559A90037B1B8 /* Sources */,
+				390D5B181DD559A90037B1B8 /* Frameworks */,
+				390D5B191DD559A90037B1B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				390D5B1D1DD559A90037B1B8 /* PBXTargetDependency */,
+			);
+			name = TableViewCheckMarkSampleTests;
+			productName = TableViewCheckMarkSampleTests;
+			productReference = 390D5B1B1DD559A90037B1B8 /* TableViewCheckMarkSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		390D5B251DD559A90037B1B8 /* TableViewCheckMarkSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 390D5B351DD559A90037B1B8 /* Build configuration list for PBXNativeTarget "TableViewCheckMarkSampleUITests" */;
+			buildPhases = (
+				390D5B221DD559A90037B1B8 /* Sources */,
+				390D5B231DD559A90037B1B8 /* Frameworks */,
+				390D5B241DD559A90037B1B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				390D5B281DD559A90037B1B8 /* PBXTargetDependency */,
+			);
+			name = TableViewCheckMarkSampleUITests;
+			productName = TableViewCheckMarkSampleUITests;
+			productReference = 390D5B261DD559A90037B1B8 /* TableViewCheckMarkSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		390D5AFF1DD559A80037B1B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = RS;
+				TargetAttributes = {
+					390D5B061DD559A80037B1B8 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					390D5B1A1DD559A90037B1B8 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 390D5B061DD559A80037B1B8;
+					};
+					390D5B251DD559A90037B1B8 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 390D5B061DD559A80037B1B8;
+					};
+				};
+			};
+			buildConfigurationList = 390D5B021DD559A80037B1B8 /* Build configuration list for PBXProject "TableViewCheckMarkSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 390D5AFE1DD559A80037B1B8;
+			productRefGroup = 390D5B081DD559A90037B1B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				390D5B061DD559A80037B1B8 /* TableViewCheckMarkSample */,
+				390D5B1A1DD559A90037B1B8 /* TableViewCheckMarkSampleTests */,
+				390D5B251DD559A90037B1B8 /* TableViewCheckMarkSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		390D5B051DD559A80037B1B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				390D5B451DD55D5F0037B1B8 /* Pachelbel.jpg in Resources */,
+				390D5B441DD55D5F0037B1B8 /* Beethoven.jpg in Resources */,
+				390D5B151DD559A90037B1B8 /* LaunchScreen.storyboard in Resources */,
+				390D5B431DD55D5F0037B1B8 /* Bach.jpg in Resources */,
+				390D5B121DD559A90037B1B8 /* Assets.xcassets in Resources */,
+				390D5B481DD55D5F0037B1B8 /* elise.mp3 in Resources */,
+				390D5B471DD55D5F0037B1B8 /* cannon.mp3 in Resources */,
+				390D5B101DD559A90037B1B8 /* Main.storyboard in Resources */,
+				390D5B461DD55D5F0037B1B8 /* aria.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390D5B191DD559A90037B1B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390D5B241DD559A90037B1B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39CA46951DD64F890037BA8C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/JEToolkit.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		390D5B031DD559A80037B1B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				390D5B391DD55AD20037B1B8 /* TableViewCell.swift in Sources */,
+				390D5B0D1DD559A90037B1B8 /* ViewController.swift in Sources */,
+				390D5B0B1DD559A90037B1B8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390D5B171DD559A90037B1B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				390D5B201DD559A90037B1B8 /* TableViewCheckMarkSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390D5B221DD559A90037B1B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				390D5B2B1DD559A90037B1B8 /* TableViewCheckMarkSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		390D5B1D1DD559A90037B1B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 390D5B061DD559A80037B1B8 /* TableViewCheckMarkSample */;
+			targetProxy = 390D5B1C1DD559A90037B1B8 /* PBXContainerItemProxy */;
+		};
+		390D5B281DD559A90037B1B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 390D5B061DD559A80037B1B8 /* TableViewCheckMarkSample */;
+			targetProxy = 390D5B271DD559A90037B1B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		390D5B0E1DD559A90037B1B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				390D5B0F1DD559A90037B1B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		390D5B131DD559A90037B1B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				390D5B141DD559A90037B1B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		390D5B2D1DD559A90037B1B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		390D5B2E1DD559A90037B1B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		390D5B301DD559A90037B1B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = TableViewCheckMarkSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.shinokin.TableViewCheckMarkSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		390D5B311DD559A90037B1B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = TableViewCheckMarkSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.shinokin.TableViewCheckMarkSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		390D5B331DD559A90037B1B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TableViewCheckMarkSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.shinokin.TableViewCheckMarkSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewCheckMarkSample.app/TableViewCheckMarkSample";
+			};
+			name = Debug;
+		};
+		390D5B341DD559A90037B1B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TableViewCheckMarkSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.shinokin.TableViewCheckMarkSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewCheckMarkSample.app/TableViewCheckMarkSample";
+			};
+			name = Release;
+		};
+		390D5B361DD559A90037B1B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TableViewCheckMarkSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.shinokin.TableViewCheckMarkSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TableViewCheckMarkSample;
+			};
+			name = Debug;
+		};
+		390D5B371DD559A90037B1B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TableViewCheckMarkSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.shinokin.TableViewCheckMarkSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TableViewCheckMarkSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		390D5B021DD559A80037B1B8 /* Build configuration list for PBXProject "TableViewCheckMarkSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				390D5B2D1DD559A90037B1B8 /* Debug */,
+				390D5B2E1DD559A90037B1B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		390D5B2F1DD559A90037B1B8 /* Build configuration list for PBXNativeTarget "TableViewCheckMarkSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				390D5B301DD559A90037B1B8 /* Debug */,
+				390D5B311DD559A90037B1B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		390D5B321DD559A90037B1B8 /* Build configuration list for PBXNativeTarget "TableViewCheckMarkSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				390D5B331DD559A90037B1B8 /* Debug */,
+				390D5B341DD559A90037B1B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		390D5B351DD559A90037B1B8 /* Build configuration list for PBXNativeTarget "TableViewCheckMarkSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				390D5B361DD559A90037B1B8 /* Debug */,
+				390D5B371DD559A90037B1B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 390D5AFF1DD559A80037B1B8 /* Project object */;
+}
