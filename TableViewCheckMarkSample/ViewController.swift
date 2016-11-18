@@ -124,17 +124,9 @@ class ViewController: UIViewController {
     
     fileprivate func audioPlay(of index: Int) {
         
-        guard let item: Music = Music(rawValue: index) else {
-            
-            return
-        }
-        
-        guard let songPath: String = Bundle.main.path(forResource: item.fileName(), ofType: "mp3") else {
-            
-            return
-        }
-        
-        guard let url: URL = URL(string: songPath) else {
+        guard let item: Music = Music(rawValue: index),
+            let songPath: String = Bundle.main.path(forResource: item.fileName(), ofType: "mp3"),
+            let url: URL = URL(string: songPath) else {
             
             return
         }
